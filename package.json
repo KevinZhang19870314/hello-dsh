@@ -1,0 +1,20 @@
+{
+  "name": "hello-dsh",
+  "version": "0.2.0",
+  "private": true,
+  "description": "A dependency-free ChatGPT-style web chat app used as a playground for DeepSeek Harness (dsh).",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "bin": {
+    "hello-dsh": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test",
+    "build:pages": "node scripts/build-pages.js"
+  }
+}
